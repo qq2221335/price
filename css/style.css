@@ -1,5 +1,40 @@
 body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, fieldset, legend, button, input, textarea,th,td,img{border:medium none;margin: 0;padding: 0;}body,button, input, select, textarea,samp {font: 12px/1.5 "Microsoft YaHei","微软雅黑","SimHei","黑体"; }h1, h2, h3, h4, h5, h6 { font-size: 100%; }em{font-style:normal;}ul, ol { list-style: none;}a{ text-decoration: none; color:#333;}a:hover { text-decoration:none;}img{ border:0px;}table { border-collapse: collapse; border-spacing: 0;}
 .left{float:left;}
 .right{float:right;}
-.top .header{width: 1200px; height: auto; margin: 0 auto; overflow: auto;}
-
+.top .header{width: 1200px; height: auto; margin: 0 auto; overflow: auto; padding: 18px 0;}
+.top .header .seek{padding-top: 22px ;}
+.top .header .seek .inp{width: 570px; height: auto; overflow: auto;}
+.top .header .seek .inp .category{width: 95px; height: auto;}
+.top .header .seek .inp .category ul li a{display: block; width: 95px; height: 35px; line-height: 35px; text-align: center; color: #999; font-size: 16px; position: relative;border: solid 1px #b1b1b1;z-index: 1;}
+.top .header .seek .inp .category ul li a i{margin: 0 10px;}
+.top .header .seek .inp .category ul li >ul{position:absolute; display: none;}
+.top .header .seek .inp .category ul li >ul li{border: solid 1px #cecece; border-top: none;}
+.top .header .seek .inp .category ul li >ul li a{border: none;background: #fff;}
+.top .header .seek .inp input{border-bottom: solid 1px #b1b1b1; border-top: solid 1px #B1B1B1; height: 35px; width: 340px; line-height: 35px; font-size: 16px; padding: 0 10px;color: #999;}
+.top .header .seek .inp button{background: #f78d00; height: 37px; width: 110px; color: #fff; font-size: 16px;}
+.top .header .seek .hot{ padding: 5px 0;}
+.top .header .seek .hot h3{font-size: 14px; color: #666;}
+.top .header .seek .hot ul li{float: left;}
+.top .header .seek .hot ul li a{display: block; padding: 0 5px; font-size: 14px; color: #999;}
+.top .nav{background: #7c8f25; height: 48px; width: 100%;}
+.top .nav .nav_con{width: 1200px; margin: 0 auto;height:auto;overflow: auto;}
+.top .nav .nav_con ul{margin-left: 20px;}
+.top .nav .nav_con ul li{float: left;}
+.top .nav .nav_con ul li a{padding: 0 20px; font-size: 16px; color: #fff; height: 48px; line-height: 48px; display: block;}
+.top .nav .nav_con ul li a:hover{background: #97b800;}
+.top .nav .nav_con ul li .hover{background: #97b800;}
+.top .nav .nav_con ol li{height: 48px;line-height: 48px; background: #97b800;width: 150px;}
+.top .nav .nav_con ol li a{font-size: 16px; color: #fff; position: relative; padding: 0 18px; display: block;}
+.top .nav .nav_con ol li a i{margin-left:10px;}
+.top .nav .nav_con ol li>ul{position: absolute; z-index: 2; margin: 0; padding: 0; border-left: solid 1px #d8d9d9;position: absolute;}
+.top .nav .nav_con ol li>ul li{float: none; height: 38px;border-bottom: solid 1px #d8d9d9;width: 149px;border-right: solid 1px #d8d9d9;}
+.top .nav .nav_con ol li>ul li a{background: #fff; color: #666; font-size: 14px; line-height: 38px;height: 38px; display: block;border-bottom: solid 1px #d8d9d9; display: block;padding: 0 0 0 18px;}
+.top .nav .nav_con ol li>ul li:hover{border-right: solid 1px #fff;}
+.top .nav .nav_con ol li>ul li a:hover{background: #fff;}
+.top .nav .nav_con ol li>ul li a i{margin-right: 6px; margin-left:0;text-align: center;}
+.top .nav .nav_con ol li>ul li .nav_class{position: absolute;left: 150px;top: 0;background: #fff; height: 418px; width: 1009px;overflow: auto;padding: 5px 20px;border-bottom: solid 1px #d8d9d9;border-right: solid 1px #d8d9d9;}
+.top .nav .nav_con ol li>ul li .nav_class h3{width: 100%; border-bottom: solid 1px #999;font-size: 14px; height: 28px; line-height: 28px; font-weight: bold; margin-top: 5px;}
+.top .nav .nav_con ol li>ul li .nav_class ul{padding: 0; margin: 0;border: none; width: 100%; height: auto; overflow: auto;margin-bottom: 5px;}
+.top .nav .nav_con ol li>ul li .nav_class ul li{float: left;border: none; width: auto;}
+.top .nav .nav_con ol li>ul li .nav_class ul li a{border: none; padding:0 18px 0 0 ;}
+.top .nav .nav_con ol li>ul li .nav_class ul li a:hover{background:#fff; text-decoration: underline;}
