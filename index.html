@@ -8,6 +8,7 @@
 		<link href="css/style.css" type="text/css" rel="stylesheet"/>
 		<link href="font/iconfont.css" type="text/css" rel="stylesheet"/>
 		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/style.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="top">
@@ -17,9 +18,10 @@
 					<div class="inp">
 						<div class="category left">
 							<ul>
-								<li>
-									<a href="javascript:void(0)">全部<i class="iconfont">&#xe683;</i></a>
-									<ul>
+								<li id="seek_choice">
+									<a href="javascript:void(0)"><samp>全部</samp><i class="iconfont right">&#xe683;</i></a>
+									<ul id="choice_con">
+										<li><a href="javascript:void(0)">全部</a></li>
 										<li><a href="javascript:void(0)">价格行情</a></li>
 										<li><a href="javascript:void(0)">市场观察</a></li>
 										<li><a href="javascript:void(0)">分析研判</a></li>
@@ -100,8 +102,39 @@
 		<div class="center"></div>
 		<!--中部结束-->
 		<div class="bottom">
-			<div class="mune left"></div>
-			<div class="code right"></div>
+					<div class="eq">
+						<ul>
+							<li>
+								<a hhref="#"><i class="iconfont">&#xe600;</i></a>
+								<div class="">
+									
+								</div>
+							</li>
+							<li><a hhref="#"><i class="iconfont">&#xe691;</i></a></li>
+							<li><a hhref="#"><i class="iconfont">&#xe687;</i></a></li>
+						</ul>
+					</div>
+					<p style="margin-bottom: 20px;">
+						<a href="#">首页</a>
+						<samp>|</samp>
+						<a href="#">市场观察</a>
+						<samp>|</samp>
+						<a href="#">分析研判</a>
+						<samp>|</samp>
+						<a href="#">价格行情</a>
+						<samp>|</samp>
+						<a href="#">价格指数</a>
+						<samp>|</samp>
+						<a href="#">场景服务</a>
+					</p>
+					<p>
+						<a href="#">广东省发展和改革委员会主办</a> 　
+						<a href="#">广东省价格监测中心承办</a>
+					</p>
+					<p>
+						©Copyright&nbsp;&nbsp;广东省价格监测中心版权所有&nbsp;&nbsp;&nbsp;备案编号:粤ICP备14069967号-1
+					</p>
+					<p>技术支持单位：广东荣晖信息工程有限公司</p>
 		</div>
 	</body>
 </html>

@@ -5,9 +5,9 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .top .header .seek{padding-top: 22px ;}
 .top .header .seek .inp{width: 570px; height: auto; overflow: auto;}
 .top .header .seek .inp .category{width: 95px; height: auto;}
-.top .header .seek .inp .category ul li a{display: block; width: 95px; height: 35px; line-height: 35px; text-align: center; color: #999; font-size: 16px; position: relative;border: solid 1px #b1b1b1;z-index: 1;}
-.top .header .seek .inp .category ul li a i{margin: 0 10px;}
-.top .header .seek .inp .category ul li >ul{position:absolute; display: none;}
+.top .header .seek .inp .category ul li a{display: block; width: 89px;padding-right: 6px; height: 35px; line-height: 35px; text-align: center; color: #999; position: relative;border: solid 1px #b1b1b1;z-index: 1;font-size: 14px;}
+.top .header .seek .inp .category ul li a samp{font-size: 14px;}
+.top .header .seek .inp .category ul li >ul{position:absolute; display: none;z-index: 4;}
 .top .header .seek .inp .category ul li >ul li{border: solid 1px #cecece; border-top: none;}
 .top .header .seek .inp .category ul li >ul li a{border: none;background: #fff;}
 .top .header .seek .inp input{border-bottom: solid 1px #b1b1b1; border-top: solid 1px #B1B1B1; height: 35px; width: 340px; line-height: 35px; font-size: 16px; padding: 0 10px;color: #999;}
@@ -38,3 +38,16 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .top .nav .nav_con ol li>ul li .nav_class ul li{float: left;border: none; width: auto;}
 .top .nav .nav_con ol li>ul li .nav_class ul li a{border: none; padding:0 18px 0 0 ;}
 .top .nav .nav_con ol li>ul li .nav_class ul li a:hover{background:#fff; text-decoration: underline;}
+.center{height: 600px;}
+.bottom{width: 100%; background: #999; padding: 40px 0;}
+.bottom p{width: 1200px; margin: 6px auto; text-align: center;color: #e2e2e2;font-size: 14px;}
+.bottom p a{color: #e2e2e2; padding: 0 10px; font-size: 14px;}
+.bottom p samp{padding: 0 5px;color: #e2e2e2;}
+.bottom p a:hover{text-decoration: underline;}
+.bottom .eq{width: 1200px; margin: 0 auto 30px; text-align: center;}
+.bottom .eq ul li{display: inline-table; position: relative;}
+.bottom .eq ul li a{margin: 0 20px; background: #333a40; padding: 2px 10px; display: inline-table;border-radius:50%;}
+.bottom .eq ul li a i{color: #696f7f;font-size:32px;}
+.bottom .eq ul li a:hover{background: #3789c5;}
+.bottom .eq ul li a:hover i{color: #fff;}
+
