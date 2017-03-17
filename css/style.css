@@ -40,9 +40,9 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .top .nav .nav_con ol li>ul li .nav_class ul li a:hover{background:#fff; text-decoration: underline;}
 .center{height: 600px;}
 .bottom{width: 100%; background: #999; padding: 40px 0;}
-.bottom p{width: 1200px; margin: 6px auto; text-align: center;color: #e2e2e2;font-size: 14px;}
-.bottom p a{color: #e2e2e2; padding: 0 10px; font-size: 14px;}
-.bottom p samp{padding: 0 5px;color: #e2e2e2;}
+.bottom p{width: 1200px; margin: 6px auto; text-align: center;color: #fff;font-size: 14px;}
+.bottom p a{color: #fff; padding: 0 10px; font-size: 14px;}
+.bottom p samp{padding: 0 5px;color: #fff;}
 .bottom p a:hover{text-decoration: underline;}
 .bottom .eq{width: 1200px; margin: 0 auto 30px; text-align: center;}
 .bottom .eq ul li{display: inline-table; position: relative;}
