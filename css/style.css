@@ -32,7 +32,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .top .nav .nav_con ol li>ul li:hover{border-right: solid 1px #fff;}
 .top .nav .nav_con ol li>ul li a:hover{background: #fff;}
 .top .nav .nav_con ol li>ul li a i{margin-right: 6px; margin-left:0;text-align: center;}
-.top .nav .nav_con ol li>ul li .nav_class{position: absolute;left: 150px;top: 0;background: #fff; height: 418px; width: 1009px;overflow: auto;padding: 5px 20px;border-bottom: solid 1px #d8d9d9;border-right: solid 1px #d8d9d9;}
+.top .nav .nav_con ol li>ul li .nav_class{position: absolute;left: 150px;top: 0;background: #fff; height: 418px; width: 1009px;overflow: auto;padding: 5px 20px;border-bottom: solid 1px #d8d9d9; border-right: solid 1px #d8d9d9;display: none;}
 .top .nav .nav_con ol li>ul li .nav_class h3{width: 100%; border-bottom: solid 1px #999;font-size: 14px; height: 28px; line-height: 28px; font-weight: bold; margin-top: 5px;}
 .top .nav .nav_con ol li>ul li .nav_class ul{padding: 0; margin: 0;border: none; width: 100%; height: auto; overflow: auto;margin-bottom: 5px;}
 .top .nav .nav_con ol li>ul li .nav_class ul li{float: left;border: none; width: auto;}
