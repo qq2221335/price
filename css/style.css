@@ -77,30 +77,53 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .center .center_body .cen_nav .adr>span{color: #f78d00;}
 .center .center_body .cen_nav .Utime{color: #333;}
 
-.left_con{width: 265px;color: #737373;font-size: 14px;border: 1px solid #ccc;}
+.left_con{width: 265px;color: #737373;font-size: 14px;}
 .right_con{width: 910px;}
 .left_con h3{color: #333; font-size: 17px;font-weight: normal;}
+.classification{border: 1px solid #ccc;}
 .classification .Allitem{border-bottom: 1px solid #ededed;border-top:10px solid #96b801;padding: 5px 20px;}
 .classification .select_item{padding: 5px 20px;}
 .classification .select_item>div{overflow: hidden;width: 100%;border-bottom: 1px solid #ededed;padding-bottom: 5px;}
 .classification ul{width: 257px;margin-left: -22px;}
 .classification a{color: #737373;}
 .classification a:hover{color: #97b800;}
-.classification .are li{float: left;width: 50px;text-align: center;margin: 12px 0px 5px 13px;}
+.classification .are li{float: left;width: 51px;text-align: center;margin: 12px 0px 5px 13px;}
 .classification .product li{float: left;min-width: 46px;margin: 12px 0px 5px 35px;}
 .classification  li a{font-size: 16px;}
-.right_con{border: 1px solid #ccc;}
-.tab_nav{background-color: #f8f8f8;padding-left: 25px;}
+.classification  img{height:200px;width: 100%;}
+.classification>p{text-align: center;color: #333;}
+.classification .addr{text-align: left;padding: 0 25px;margin: 5px 0;color: #737373;}
+.right_con{margin-bottom: 20px;}
+.tab_nav{background-color: #f8f8f8;padding:0 25px;}
 .tab_nav>span{padding: 10px 20px;display: inline-block;font-size: 16px;}
 .tab_nav>span.isclick{border-top:5px solid #96b801;background-color: #fff;}
-.right_con ul{width: 910px;height: 672px;overflow-x: hidden;overflow-y: auto;}
-.right_con ul li{padding: 30px 40px;border-bottom: 1px solid #EDEDED;}
-.right_con ul li>img{width: 120px;height: 120px;display: block;float: left;border-radius: 10px;}
-.right_con ul li:after{content: '';display: block;clear: both;}
-.right_con ul li>div{float: right;width: 665px;}
-.right_con ul li p{font-size: 17px;color: #737373;}
-.right_con ul li .PName{font-size: 20px;color: #333;}
-.right_con ul li .level{margin-left: 18%;font-weight: normal;}
+.tab_nav div{display: inline-block;font-size: 16px;padding:10px 0;}
+.food_list{border: 1px solid #ccc;height: 721px;}
+.food_list ul{width: 910px;height: 672px;overflow-x: hidden;overflow-y: auto;background-color: #fff;}
+.food_list ul li{padding: 30px 40px;border-bottom: 1px solid #EDEDED;}
+.food_list ul li:last-child{border-bottom: none !important;}
+.food_list ul li>img{width: 120px;height: 120px;display: block;float: left;border-radius: 10px;}
+.food_list ul li:after{content: '';display: block;clear: both;}
+.food_list ul li>div{float: right;width: 665px;}
+.food_list ul li p{font-size: 17px;color: #737373;}
+.food_list ul li .PName{font-size: 20px;color: #333;}
+.food_list ul li .level{margin-left: 18%;font-weight: normal;}
 .right_con ul li .price{margin-left: 22%;}
-.right_con ul li .price strong{font-size: 28px; font-weight: normal;color: #333;}
-.right_con ul li .hb{margin-top: 40px;}
+.food_list ul li .price strong{font-size: 28px; font-weight: normal;color: #333;}
+.food_list ul li .hb{margin-top: 40px;}
+.Article_list{margin: 20px 0; border: 1px solid #ccc;}
+.Article_list ul li{padding: 30px;border-bottom: 1px solid #EDEDED;}
+.Article_list img{display: block;float: left;width: 25%;height: 150px;}
+.Article_list ul li:after{content: '';display: block;clear: both;}
+.Article_list .detailed {float: right;width: 73%;font-size: 14px;}
+.Article_list .detailed>span{font-size:12px;color:#fff; width: 50px;height: 18px;display: inline-block;background-color: #97b800;padding: 5px 10px;}
+.Article_list .detailed>h4{font-size: 18px;font-weight: normal;margin: 10px 0 5px 0;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.Article_list .detailed>div{height: 50px;overflow: hidden;}
+.Article_list .detailed a{line-height: 25px;color: #737373;}
+.Article_list .detailed a:hover{text-decoration: underline !important;}
+.Article_list .detailed a>span{color: #333;}
+.Article_list .detailed p{height: 20px;color: #737373;margin-top: 10px;position: relative;}
+.Article_list .detailed p>span:last-child{position: absolute;top: -10px;right: 0;display: inline-block;color: #97b800;border: 1px solid #ccc; padding: 3px 15px;font-size: 15px}
+.Article_list  .clickMore{text-align: center;padding: 10px 0;font-size: 18px;}
+.Article_list  .clickMore a{color: #737373;}
+.Article_list  .clickMore a:hover{color: #97b800;}
