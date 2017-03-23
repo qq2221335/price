@@ -24,4 +24,10 @@ $(document).ready(function() {
 	function(){
 		$(this).find(".nav_class").hide();
 	});
+	//scene_service.html场景服务点击事件
+	$(".sceneChoice a").click(function () {
+        $(".sceneChoice a").removeClass("active");
+        $(this).addClass("active");
+        $(".sceneBox").hide().eq($(this).index()).show();
+    });
 }); 
