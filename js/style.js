@@ -24,7 +24,7 @@ $(document).ready(function() {
 	function(){
 		$(this).find(".nav_class").hide();
 	});
-<<<<<<< HEAD
+	
 		var total=$("#solid ul").children().length;
 		var now=0;
 		//banner效果
@@ -64,8 +64,6 @@ $(document).ready(function() {
 			$("#btt span").eq(now).css("background","#ffffff");
 			$(cname).css("display","block");
 		}
-}); 
-=======
 	//scene_service.html场景服务点击事件
 	$(".sceneChoice a").click(function () {
         $(".sceneChoice a").removeClass("active");
@@ -73,4 +71,8 @@ $(document).ready(function() {
         $(".sceneBox").hide().eq($(this).index()).show();
     });
 }); 
->>>>>>> branch 'master' of https://github.com/qq2221335/price.git
+
+	
+
+	
+
