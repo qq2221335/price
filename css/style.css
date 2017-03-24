@@ -78,7 +78,18 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .center .center_body .cen_nav .Utime{color: #333;}
 
 .left_con{width: 265px;color: #737373;font-size: 14px;}
-.right_con{width: 910px;}
+.left_con .left_nav ul{border: 1px solid #ccc;}
+.left_con .left_nav ul li{padding: 15px 10px 19px 10px;text-align: center;border-bottom: 1px solid #EDEDED;}
+.left_con .left_nav ul li.isSelect{background-color: #f8f8f8;border-top:10px solid #96b801;}
+.left_con .left_nav ul li:last-child{border-bottom: none !important;}
+.left_con .left_nav ul li h1{font-size: 21px;font-weight: normal;color: #333333;}
+.left_con .left_nav ul li .name{font-size: 18px;margin-top: 15px;}
+.left_con .left_nav ul li .num{font-size: 24px;color: #f79702;}
+.left_con .left_nav ul li div{margin-top: 10px;}
+.left_con .left_nav ul li div:after{content: "";display: block;clear:both;}
+.left_con .left_nav ul li div>span:nth-child(1){margin-left:25px;font-size: 16px;}
+.left_con .left_nav ul li div>span:nth-child(2){margin-right:20px;font-size: 16px;}
+.right_con{width: 910px;margin-bottom: 20px;}
 .left_con h3{color: #333; font-size: 17px;font-weight: normal;}
 .classification{border: 1px solid #ccc;}
 .classification .Allitem{border-bottom: 1px solid #ededed;border-top:10px solid #96b801;padding: 5px 20px;}
@@ -93,7 +104,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .classification  img{height:200px;width: 100%;}
 .classification>p{text-align: center;color: #333;}
 .classification .addr{text-align: left;padding: 0 25px;margin: 5px 0;color: #737373;}
-.right_con{margin-bottom: 20px;}
+
 .tab_nav{background-color: #f8f8f8;padding:0 25px;}
 .tab_nav>span{padding: 10px 20px;display: inline-block;font-size: 16px;}
 .tab_nav>span.isclick{border-top:5px solid #96b801;background-color: #fff;}
@@ -108,7 +119,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .food_list ul li p{font-size: 17px;color: #737373;}
 .food_list ul li .PName{font-size: 20px;color: #333;}
 .food_list ul li .level{margin-left: 18%;font-weight: normal;}
-.right_con ul li .price{margin-left: 22%;}
+.food_list ul li .price{margin-left: 22%;}
 .food_list ul li .price strong{font-size: 28px; font-weight: normal;color: #333;}
 .food_list ul li .hb{margin-top: 40px;}
 .Article_list{margin: 20px 0; border: 1px solid #ccc;}
@@ -124,6 +135,15 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .Article_list .detailed a>span{color: #333;}
 .Article_list .detailed p{height: 20px;color: #737373;margin-top: 10px;position: relative;}
 .Article_list .detailed p>span:last-child{position: absolute;top: -10px;right: 0;display: inline-block;color: #97b800;border: 1px solid #ccc; padding: 3px 15px;font-size: 15px}
-.Article_list  .clickMore{text-align: center;padding: 10px 0;font-size: 18px;}
-.Article_list  .clickMore a{color: #737373;}
-.Article_list  .clickMore a:hover{color: #97b800;}
+.Article_list  .clickMore{text-align: center;padding: 10px 0;font-size: 18px;color: #737373;}
+.Article_list  .clickMore:hover{color: #97b800;cursor: pointer;}
+
+.right_con .data{padding:15px 30px;border: 1px solid #ccc;}
+.right_con .data .data_name{text-align:center;font-size: 21px;color: #fff;padding: 10px 20px; background-color: #96b801;width: 280px;display: block;}
+.right_con .data .data_name i{font-size: 24px;margin-left: 20px;}
+.right_con .data .data_line{border: 1px solid red;margin: 16px 0;height: 400px;}
+.right_con .data .data_table{text-align: center;margin-top: 20px;}
+.right_con .data .data_table table{border:2px solid #ccc;width: 100%;}
+.right_con .data .data_table table tr th,td{padding: 15px 10px;border: 1px solid #ccc;}
+.right_con .data .data_table table tr th{font-size: 16px; background-color: #f8f8f8;}
+.right_con .data .data_table table tr td{font: 15px/22px '微软雅黑';}
