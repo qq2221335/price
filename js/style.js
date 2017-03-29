@@ -16,6 +16,7 @@ $(document).ready(function() {
 		if($(this).find("a").attr("name")!="home"){
 			$("#nav_all_one").slideToggle(0);
 		}
+		
 	});
 	
 	$("#nav_all_one li").hover(function(){
