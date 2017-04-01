@@ -71,8 +71,21 @@ $(document).ready(function() {
         $(this).addClass("active");
         $(".sceneBox").hide().eq($(this).index()).show();
     });
+    
+    
+    //index返回顶部定位
+	$(window).scroll(function (){
+		var st = $(this).scrollTop();
+		if(st > 720){
+			$(".po_right").css('top',st - 720 + 100);
+		};
+		if(st < 720){
+			$(".po_right").css('top',52);
+		}
+	});
+   	
 }); 
-
+	
 	
 
 	
