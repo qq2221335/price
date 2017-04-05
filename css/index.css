@@ -91,7 +91,7 @@
 #index  table{width: 100%;text-align: center;}
 #index  table td{border: none;font-size: 16px;padding: 10px 0;}
 
-#index .index_png{margin: 20px 0;}
+#index .index_png{margin: 20px 0 10px 0;}
 #index .index_png a{margin: 0 auto;}
 
 #index .index_price ul li.price_item{width: 215px;float: left;text-align: center;padding-right:30px;margin-top: 30px;}
@@ -129,9 +129,9 @@
 #index .np_marker .btn{display: block;position:absolute;top: 106px;width: 50px;height: 100px;}
 #index .np_marker .btn:hover{cursor: pointer;}
 #index .index_priceAnalysis{margin:30px 0;}
-#index .index_priceAnalysis .top_line{padding:10px  0 0 0;}
+#index .index_priceAnalysis .top_line{padding:10px  0;}
 #index .index_priceAnalysis .price_list{width: 1200px;overflow: hidden;}
-#index .index_priceAnalysis .price_list ul{width: 1380px;margin-left: -15px;}
+#index .index_priceAnalysis .price_list ul{width: 1230px;margin-left: -15px;}
 #index .index_priceAnalysis .price_list .top_line{border-top:5px solid #7d8b36;}
 #index .index_priceAnalysis .price_list .top_line .left a{color:#7d8b36;}
 #index .index_priceAnalysis .price_list ul li{float: left;width: 380px;padding: 10px 15px;}
