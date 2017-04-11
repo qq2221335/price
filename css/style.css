@@ -73,10 +73,9 @@ body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li,pre,form, 
 .center .center_body .news_content .news_detail .text{font: 16px/32px '微软雅黑'; color: #333; padding: 0 30px;}
 .center .center_body .news_content .News_List {width: 320px;background: #fff; margin-left: 20px;}
 .center .center_body .news_content .News_List h1{font-size: 16px;padding: 10px 10px 0 10px;}
-.center .center_body .news_content .News_List ul{padding: 10px;}
-.center .center_body .news_content .News_List li{padding: 5px 0 ;list-style-type: disc; width: 100%; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; list-style-position: inside; }
-.center .center_body .news_content .News_List li:hover a{color: #97b800;}
-.center .center_body .news_content .News_List li a{margin-left: -10px;font-size: 14px;}
+.center .center_body .news_content .News_List ul{padding: 15px;}
+.center .center_body .news_content .News_List li{background: url(../images/point.png) -6px 2px no-repeat;text-indent: 10px;display:block;height: 31px;line-height: 31px;   white-space:nowrap; text-overflow:ellipsis; overflow: hidden;}
+.center .center_body .news_content .News_List li a{font-size: 14px;}
 /*MainIndex.html*/
 .center .center_body .cen_nav .adr{ margin-left: 80px;color: #333;}
 .center .center_body .cen_nav .adr>span{color: #f78d00;}
